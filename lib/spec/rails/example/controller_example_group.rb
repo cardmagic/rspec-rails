@@ -215,7 +215,7 @@ MESSAGE
               if matching_stub_exists(options)
                 @performed_render = true
               else
-                super
+                super(options, &block)
               end
             end
           end
